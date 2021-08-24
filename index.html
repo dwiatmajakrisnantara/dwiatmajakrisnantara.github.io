@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dwi Atmaja Krisnantara</title>
+    <meta name="description" content="Web Portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Dwi Atmaja Krisnantara">
+    <link rel="shortcut icon" type="image/png" href="image/DAK.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="info" onclick="showinfo()" class="animated fadeIn" style="animation-delay:2.2s;">info</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Dwi Atmaja Krisnantara</h1>
+        <h2>Programmer / Designer</h2>
+        <div id="menu">
+            <a onclick="showabout()">About</a>
+            <a onclick="showinfo()">Info</a>
+            <a onclick="showcontact()">Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.instagram.com/dwiatmajakrisnantara" class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://dwiatmajakrisnantara.github.io/profile/" class="social"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://api.whatsapp.com/send?phone=62895358913800" class="social"><i class="fab fa-whatsapp"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="info_container" class="container">
+        <div onclick="closeinfo()"><i class="fas fa-angle-right"></i></div>
+        <h1>Info.</h1>
+        <section>
+            <h2>My work</h2>
+            <p>
+                As a professional graphic and web designer, I bring a range of art and design disciplines to every project I work on. From brand strategy and user interface design to creative writing and front-end development, my work exemplifies an appreciation for complete brand experiences.
+            </p>
+            <div>
+                <a href="https://dribbble.com/shots/15365735-Helmet-Shop"><button class="btn_one">Dribbble</button></a>
+                <a href="https://www.behance.net/gallery/111999663/Design-Social-Media-Post"><button class="btn_two">Behance</button></a>
+            </div>
+        </section>
+        <section>
+            <h2>Favorite Song</h2>
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX6P51sFpSo2r?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About.</h1>
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m Dwi Atmaja Krisnantara, and this is my site. I live in West Java. I was born in Indonesia. I love online gaming and creating web apps. I’m happiest when I’m playing games, designing, or building something that didn’t exist before.
+                </p>
+                <p>
+                    My background in user interface design is accented by a multi-disciplinary skillset that includes visual design, UX methods, content strategy and project management. The result is beautiful, well-planned websites that are intuitive, engaging, and persuasive.
+                </p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <div id="used">
+                    <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Photoshop</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Adobe illustrator</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Figma</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Adobe XD</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Marketing</div>
+                </div>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact.</h1>
+            <section>
+                <h2>Contact Me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            Made On Earth By A Human <br> <a href="https://atmajakrisnantara.my.id">Dwi Atmaja Krisnantara</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
