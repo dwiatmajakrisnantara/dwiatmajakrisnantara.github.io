@@ -94,10 +94,10 @@
             <section>
                 <h2>Contact Me</h2>
                 <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                    <form action="mail.php" method="post">
+                        <input type="text" name="name" placeholder="name" required>
+                        <input type="email" name="emailaddress" placeholder="email" required><br>
+                        <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
                         <button class="btn_one">send</button>
                     </form> 
                 </p>
