@@ -12,5 +12,5 @@ if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
 //redirect
-header();
+header("Location:https://atmajakrisnantara.my.id");
 ?>
