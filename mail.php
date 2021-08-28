@@ -11,4 +11,6 @@ $headers = "From: noreply@atmajakrisnantara.my.id" . "\r\n" .
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
+//redirect
+header();
 ?>
