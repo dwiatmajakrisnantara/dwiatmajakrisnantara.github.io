@@ -10,7 +10,7 @@ $headers = "From: noreply@atmajakrisnantara.my.id" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
+    header("Location:https://atmajakrisnantara.my.id");
 }
 //redirect
-header("Location:https://atmajakrisnantara.my.id");
 ?>
