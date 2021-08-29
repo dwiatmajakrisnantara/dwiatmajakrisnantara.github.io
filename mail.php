@@ -7,7 +7,7 @@ $message= $_POST['message'];
 $to = "atmajakrisnantara@gmail.com";
 
 $subject = "Mail From Website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
+$txt ="Name = ". $name . "\r\n  Email = " . $emailaddres . "\r\n Message =" . $message;
 
 $headers = "From: noreply@dwiatmajakrisnantara.github.io";
 if($email!=NULL){
