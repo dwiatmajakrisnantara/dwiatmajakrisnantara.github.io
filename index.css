@@ -11,8 +11,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-* { color:#fff; text-decoration: none;}
-
 #loading {
     width: 100vw;
     height: 100vh;
@@ -387,3 +385,5 @@ body {
         width:100%;
     }
 }
+
+* { color:#fff; text-decoration: none;}
