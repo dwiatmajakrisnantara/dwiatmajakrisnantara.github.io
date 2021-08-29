@@ -4,12 +4,12 @@ $name = $_POST['name'];
 $email= $_POST['emailaddress'];
 $message= $_POST['message'];
 
-$to = "admin@atmajakrisnantara.my.id";
+$to = "atmajakrisnantara@gmail.com";
 
-$subject = "Notif From Website";
+$subject = "Mail From Website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
 
-$headers = "From: notif@atmajakrisnantara.my.id";
+$headers = "From: noreply@dwiatmajakrisnantara.github.io";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
