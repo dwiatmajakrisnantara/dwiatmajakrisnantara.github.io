@@ -6,7 +6,7 @@ $message= $_POST['message'];
 
 $to = "atmajakrisnantara@gmail.com";
 
-$subject = "Mail From Website";
+$subject = "Notif From Website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
 
 $headers = "From: noreply@atmajakrisnantara.my.id";
