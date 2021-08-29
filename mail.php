@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email= $_POST['emailaddress'];
 $message= $_POST['message'];
 
-$to = "atmajakrisnantara@gmail.com";
+$to = "admin@atmajakrisnantara.my.id";
 
 $subject = "Notif From Website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
