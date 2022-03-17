@@ -105,14 +105,21 @@
                 <h2>Contact Me</h2>
                 <p>
                     <form id="my-form" action="https://formspree.io/f/xnqzkyvb" method="POST">
-                        <label>Name :</label><br>
+                        <input type="name" name="name" placeholder="name"/>
+                        <input type="email" name="email" placeholder="email"/>
+                        <input type="text" name="message" placeholder="your message" required row="5"/><br>
+                        <button id="my-form-button" class="btn_one">Submit</button>
+                        <p id="my-form-status"></p>
+                        
+                        <!-- <label>Name :</label><br>
                         <input type="name" name="name"/><br><br>
                         <label>Email :</label><br>
                         <input type="email" name="email"/><br><br>
                         <label>Message :</label><br>
                         <input type="text" name="message"/><br><br>
                         <button id="my-form-button" class="btn_one">Submit</button>
-                        <p id="my-form-status"></p>
+                        <p id="my-form-status"></p> -->
+                
                         <!-- <input type="text" placeholder="name" required>
                         <input type="email" placeholder="email" required><br>
                         <textarea placeholder="your message" required rows="5"></textarea><br>
