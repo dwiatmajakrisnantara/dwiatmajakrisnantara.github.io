@@ -55,14 +55,14 @@ body {
     margin-left:-5px;
 }
 #menu {
-    width:102%;
+    width:100%;
     text-align:center;
     margin:6vh 0px;
     display:none;
 }
 #menu a {
-    margin:0px 6%;
-    font-size:19px;
+    margin:0px 5%;
+    font-size:20px;
     color:#fff;
     text-decoration:underline;
 }
