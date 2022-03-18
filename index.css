@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1647627423811-d4e79ac4abb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -15,7 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(0, 0, 0);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(0, 0, 0);
     border-radius:50%;
     margin:0;
 }
@@ -48,10 +48,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(0, 0, 0);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(0, 0, 0);
     margin-left:-5px;
 }
 #menu {
@@ -64,7 +64,7 @@ body {
     margin:0px 5%;
     font-size:20px;
     color:#fff;
-    text-decoration:underline;
+    text-decoration:none;
 }
 #middle {
     width:100vw;
@@ -80,34 +80,9 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(50, 50, 255);
     font-size:47px;
 }
-
-/* .typewriter h2 { */
-    /* color: #fff; */
-    /* font-family: monospace; */
-    /* overflow: hidden; Ensures the content is not revealed until the animation */
-    /* border-right: .15em solid orange; The typwriter cursor */
-    /* white-space: nowrap; Keeps the content on a single line */
-    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
-    /* letter-spacing: .15em; Adjust as needed */
-    /* animation:  */
-    /* typing 3.5s steps(30, end), */
-    /* blink-caret .5s step-end infinite; */
-/* } */
-      
-/* The typing effect
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-} */
-      
-/* The typewriter cursor effect */
-/* @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-} */
 
 #about {
     width:10vw;
@@ -163,15 +138,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(50, 50, 255, 0.9);
     cursor:pointer;
 }
 #info:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(50, 50, 255, 0.9);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(50, 50, 255, 0.9);
     cursor:pointer;
 }
 #middle table {
@@ -191,13 +166,13 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(50,50,255);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgb(0, 0, 0);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -232,7 +207,7 @@ body {
 }
 .container h1 {
     font-size:60px;
-    text-decoration:underline;
+    text-decoration:none;
 }
 .container p {
     font-size:21px;
@@ -251,13 +226,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(0, 0, 0);
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:rgb(0, 0, 0);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -274,7 +249,7 @@ body {
 .btn_three {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:rgb(0, 0, 0);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -299,6 +274,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
+    resize:none;
     color:#fff;
     font-weight:bold;
 }
@@ -340,7 +316,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(50,50,255) ;
 }
 #particles-js {
     position:fixed;
@@ -355,14 +331,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(0, 0, 0); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgba(0, 0, 0, 0.8); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: rgb(50, 50, 255);
 }
 
 @media (max-width: 800px){ 
