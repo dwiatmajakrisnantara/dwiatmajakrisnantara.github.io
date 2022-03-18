@@ -270,6 +270,25 @@ body {
     cursor:pointer;
     padding:8px 60px;
 }
+
+.btn_three {
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(255, 50, 50);
+    background:#fff;
+    border:3px solid #fff;
+    padding:8px 40px;
+    border-radius:80px;
+    font-weight:bold;
+    margin:2vh 10px;
+    transition:0.4s ease-in-out;
+}
+.btn_three:hover {
+    cursor:pointer;
+    color:#fff;
+    background:transparent;
+}
+
 .container form input {
     width:46%;
     margin:20px 1%;
