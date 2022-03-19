@@ -15,7 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(0, 0, 0);
+    background:rgb(50, 50, 255);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(0, 0, 0);
+    border-bottom:12px solid rgb(50, 50, 255);
     border-radius:50%;
     margin:0;
 }
@@ -48,10 +48,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(0, 0, 0);
+    background:rgb(50, 50, 255);
 }
 .box2 {
-    background:rgb(0, 0, 0);
+    background:rgb(50, 50, 255);
     margin-left:-5px;
 }
 #menu {
