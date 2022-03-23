@@ -168,24 +168,6 @@ body {
     cursor: pointer;
     color:rgb(0, 0, 255);
 }
-
-#details {
-    margin:6vh 0px;
-}
-.btn_social {
-    font-size:18px;
-    color:#fff;
-    margin:40px 20px;
-    padding:15px 18px;
-    border-radius:50%;
-    background:transparent;
-    transition:0.4s ease-in-out;
-}
-.btn_social:hover {
-    color:#000;
-    background:#fff;
-    cursor:pointer;
-
 .container {
     width:90vw;
     height:90vh;
@@ -396,11 +378,6 @@ body {
     }
     #box div {
         width:100%;
-    }
-    .btn_social {
-        font-size:14px;
-        margin:10px;
-        padding:10px 11px;
     }
 }
 
