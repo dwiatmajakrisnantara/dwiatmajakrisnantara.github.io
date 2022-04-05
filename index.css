@@ -191,6 +191,9 @@ body {
 .container section {
     margin:8vh 0px;
 }
+/* #details {
+    margin:6vh auto;
+} */
 #used div{
     font-size:14px !important;
     display:inline-block;
@@ -337,9 +340,6 @@ body {
 ::selection {
 	color: #fff;
 	background: rgb(0, 0, 255);
-}
-#details {
-    margin:6vh auto;
 }
 .btn_social {
     font-size:18px;
