@@ -12,18 +12,18 @@ function closeabout() {
     $("#about_container").css("display", "none");
   }, 800);
 }
-function showinfo() {
-  $("#info_container").css("display", "inherit");
-  $("#info_container").addClass("animated slideInRight");
+function showwork() {
+  $("#work_container").css("display", "inherit");
+  $("#work_container").addClass("animated slideInRight");
   setTimeout(function () {
-    $("#info_container").removeClass("animated slideInRight");
+    $("#work_container").removeClass("animated slideInRight");
   }, 800);
 }
-function closeinfo() {
-  $("#info_container").addClass("animated slideOutRight");
+function closework() {
+  $("#work_container").addClass("animated slideOutRight");
   setTimeout(function () {
-    $("#info_container").removeClass("animated slideOutRight");
-    $("#info_container").css("display", "none");
+    $("#work_container").removeClass("animated slideOutRight");
+    $("#work_container").css("display", "none");
   }, 800);
 }
 function showcontact() {
@@ -48,6 +48,6 @@ setTimeout(function () {
     $("#box").css("display", "none");
     $("#about").removeClass("animated fadeIn");
     $("#contact").removeClass("animated fadeIn");
-    $("#info").removeClass("animated fadeIn");
+    $("#work").removeClass("animated fadeIn");
   }, 1000);
 }, 1500);
