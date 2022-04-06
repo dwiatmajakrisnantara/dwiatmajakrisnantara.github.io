@@ -103,9 +103,10 @@
                 <h2>Contact Me</h2>
                 <p>
                     <form id="my-form" action="https://formspree.io/f/xnqzkyvb" method="POST">
-                        <input type="name" name="name" placeholder="name" required/>
-                        <input type="email" name="email" placeholder="email" required/>
-                        <input type="text" name="message" placeholder="your message" required/>
+                        <input type="name" name="name" placeholder="name" required oninvalid="this.setCustomValidity('Isi NAMA Dulu Bro !!!')" oninput="setCustomValidity('')"/>
+                        <input type="email" name="email" placeholder="email" required oninvalid="this.setCustomValidity('Isi Alamat EMAIL Dong Bro !!!')" oninput="setCustomValidity('')"/>
+                        <br>
+                        <textarea type="text" name="message" placeholder="your message" required oninvalid="this.setCustomValidity('Jangan Lupa Isi PESAN Bro !!!')" oninput="setCustomValidity('')" rows='5'></textarea>
                         <br>
                         <button id="my-form-button" class="btn_one">Submit</button>
                         
