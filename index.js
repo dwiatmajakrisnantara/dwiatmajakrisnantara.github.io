@@ -51,4 +51,3 @@ setTimeout(function () {
     $("#work").removeClass("animated fadeIn");
   }, 1000);
 }, 1500);
-

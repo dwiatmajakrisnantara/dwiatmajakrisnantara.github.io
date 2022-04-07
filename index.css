@@ -67,7 +67,7 @@ body {
   display: none;
 }
 #menu a {
-  margin: 0px 4%;
+  margin: 0px 5%;
   font-size: 20px;
   color: #fff;
   text-decoration: none;
@@ -197,9 +197,9 @@ body {
 .container section {
   margin: 8vh 0px;
 }
-/* #details div {
+#details div {
   margin: 6vh auto;
-} */
+}
 #used div {
   font-size: 14px !important;
   display: inline-block;
