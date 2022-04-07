@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,17 @@
     <meta name="description" content="Web Portfolio">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Dwi Atmaja Krisnantara">
-    <link rel="shortcut icon" type="image/png" href="DAK.png"/>
+    <link rel="shortcut icon" type="image/png" href="DAK.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="typer.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <div id="loading">
         <div id="spinner"></div>
@@ -41,76 +45,98 @@
             <a onclick="showcontact()">Contact</a>
         </div>
         <table>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.instagram.com/dwiatmajakrisnantara" class="social" target="_blank"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.behance.net/dwiatmajakrisnantara" class="social" target="_blank"><i class="fab fa-behance"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://api.whatsapp.com/send?phone=62895358913800" class="social" target="_blank"><i class="fab fa-whatsapp"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://www.facebook.com/dwiatmajakrisna" class="social" target="_blank"><i class="fab fa-facebook"></i></a></td>
-                </tr>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a
+                        href="https://www.instagram.com/dwiatmajakrisnantara" class="social" target="_blank"><i
+                            class="fab fa-instagram"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a
+                        href="https://www.behance.net/dwiatmajakrisnantara" class="social" target="_blank"><i
+                            class="fab fa-behance"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a
+                        href="https://api.whatsapp.com/send?phone=62895358913800" class="social" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.8s;"><a
+                        href="https://www.facebook.com/dwiatmajakrisna" class="social" target="_blank"><i
+                            class="fab fa-facebook"></i></a></td>
+            </tr>
         </table>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
         <h1>Work.</h1>
         <section>
-            <h2>Professional Design</h2>
+            <h2>My work</h2>
             <p>
-                As a professional graphic and web designer, I bring a range of art and design disciplines to every project I work on. From brand strategy and user interface design to creative writing and front-end development, my work exemplifies an appreciation for complete brand experiences.
+                As a professional graphic and web designer, I bring a range of art and design disciplines to every
+                project I work on. From brand strategy and user interface design to creative writing and front-end
+                development, my work exemplifies an appreciation for complete brand experiences.
             </p>
-            <a href="https://dribbble.com/shots/15365735-Helmet-Shop" target="_blank"><button class="btn_three">Dribbble</button></a>
-            <a href="https://www.behance.net/gallery/111999663/Design-Social-Media-Post" target="_blank"><button class="btn_two">Behance</button></a>
+            <a href="https://dribbble.com/shots/15365735-Helmet-Shop" target="_blank"><button
+                    class="btn_three">Dribbble</button></a>
+            <a href="https://www.behance.net/gallery/111999663/Design-Social-Media-Post" target="_blank"><button
+                    class="btn_two">Behance</button></a>
         </section>
     </div>
     <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>About.</h1>
-            <section>
-                <h2>About Me</h2>
-                <p>
-                    Hi, I’m Dwi Atmaja Krisnantara, and this is my site. I live in West Java. I was born in Indonesia. I love online gaming and creating web apps. I’m happiest when I’m playing games, designing, or building something that didn’t exist before.
-                </p>
-                <p>
-                    My background in user interface design is accented by a multi-disciplinary skillset that includes visual design, UX methods, content strategy and project management. The result is beautiful, well-planned websites that are intuitive, engaging, and persuasive.
-                </p>
-            </section>
-            <section>
-                <h2>Skills</h2>
-                <div id="used">
-                    <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Node.js</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;jQuery</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;JSON</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;VSCode</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Git</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;MySQL</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Java</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;MongoDB</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Adobe XD</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Github</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Figma</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Adobe illustrator</div>
-                    <div><i class="fas fa-circle"></i>&nbsp;Adobe Photoshop</div>
-                </div>
-            </section>
-        </div>
-          <div id="contact_container" class="container">
-            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>Contact.</h1>
-            <section>
-                <h2>Contact Me</h2>
-                <p>
-                    <form id="my-form" action="https://formspree.io/f/xnqzkyvb" method="POST">
-                        <input type="name" name="name" placeholder="Name" required oninvalid="this.setCustomValidity('Masukkan Nama Bro !!!')" oninput="setCustomValidity('')" title="Masukkan Nama Bro !!!"/>
-                        <input type="email" name="email" placeholder="Email" required oninvalid="this.setCustomValidity('Email: Email Harus Berisi &quot@&quot. Contoh: nama@con-toh.com')" oninput="setCustomValidity('')" title="Email: Email Harus Berisi '@'. Contoh: nama@con-toh.com"/>
-                        <br>
-                        <textarea type="text" name="message" placeholder="Your Message" required oninvalid="this.setCustomValidity('Jangan Lupa Isi Pesannya Bro !!!')" oninput="setCustomValidity('')" rows='5'></textarea>
-                        <br>
-                        <button id="my-form-button" class="btn_one">Submit</button>
-                        
-                        <!-- <label>Name :</label><br>
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>About.</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m Dwi Atmaja Krisnantara, and this is my site. I live in West Java. I was born in Indonesia. I
+                love online gaming and creating web apps. I’m happiest when I’m playing games, designing, or building
+                something that didn’t exist before.
+            </p>
+            <p>
+                My background in user interface design is accented by a multi-disciplinary skillset that includes visual
+                design, UX methods, content strategy and project management. The result is beautiful, well-planned
+                websites that are intuitive, engaging, and persuasive.
+            </p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Node.js</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
+                <div><i class="fas fa-circle"></i>&nbsp;jQuery</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JSON</div>
+                <div><i class="fas fa-circle"></i>&nbsp;VSCode</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Git</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;MySQL</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Java</div>
+                <div><i class="fas fa-circle"></i>&nbsp;MongoDB</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Adobe XD</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Github</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Figma</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Adobe illustrator</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Adobe Photoshop</div>
+            </div>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>Contact.</h1>
+        <section>
+            <h2>Contact Me</h2>
+            <p>
+            <form id="my-form" action="https://formspree.io/f/xnqzkyvb" method="POST">
+                <input type="name" name="name" placeholder="Name" required
+                    oninvalid="this.setCustomValidity('Masukkan Nama Bro !!!')" oninput="setCustomValidity('')"
+                    title="Masukkan Nama Bro !!!" />
+                <input type="email" name="email" placeholder="Email" required
+                    oninvalid="this.setCustomValidity('Email: Email Harus Berisi &quot@&quot. Contoh: nama@ala-mat.com')"
+                    oninput="setCustomValidity('')" title="Email: Email Harus Berisi '@'. Contoh: nama@ala-mat.com" />
+                <br>
+                <textarea type="text" name="message" placeholder="Your Message" required
+                    oninvalid="this.setCustomValidity('Jangan Lupa Isi Pesannya Ya Bro !!!')"
+                    oninput="setCustomValidity('')" rows='5'></textarea>
+                <br>
+                <button id="my-form-button" class="btn_one">Submit</button>
+
+                <!-- <label>Name :</label><br>
                         <input type="name" name="name"/><br><br>
                         <label>Email :</label><br>
                         <input type="email" name="email"/><br><br>
@@ -118,24 +144,29 @@
                         <input type="text" name="message"/><br><br>
                         <button id="my-form-button" class="btn_one">Submit</button>
                         <p id="my-form-status"></p> -->
-                
-                        <!-- <input type="text" placeholder="name" required>
+
+                <!-- <input type="text" placeholder="name" required>
                         <input type="email" placeholder="email" required><br>
                         <textarea placeholder="your message" required rows="5"></textarea><br>
                         <button class="btn_one">send</button> -->
-                    </form>
-                </p>
-                <br>
-                <a href="https://www.instagram.com/dwiatmajakrisnantara" class="btn_social" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.behance.net/dwiatmajakrisnantara" class="btn_social" target="_blank"><i class="fab fa-behance"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=62895358913800" class="btn_social" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.facebook.com/dwiatmajakrisna" class="btn_social" target="_blank"><i class="fab fa-facebook"></i></a>
-            </section>
-            <p id="my-form-status"></p>
-        </div>
-        <div id="footer">
-            Made On Earth By A Human <br> <a href="https://github.com/dwiatmajakrisnantara" target="_blank">Dwi Atmaja Krisnantara</a>
-        </div>
+            </form>
+            </p>
+            <br>
+            <a href="https://www.instagram.com/dwiatmajakrisnantara" class="btn_social" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.behance.net/dwiatmajakrisnantara" class="btn_social" target="_blank"><i
+                    class="fab fa-behance"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=62895358913800" class="btn_social" target="_blank"><i
+                    class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/dwiatmajakrisna" class="btn_social" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+        </section>
+        <p id="my-form-status"></p>
+    </div>
+    <div id="footer">
+        Made On Earth By A Human <br> <a href="https://github.com/dwiatmajakrisnantara" target="_blank">Dwi Atmaja
+            Krisnantara</a>
+    </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
@@ -150,7 +181,7 @@
     </script>
     <script>
         var form = document.getElementById("my-form");
-    
+
         async function handleSubmit(event) {
             event.preventDefault();
             var status = document.getElementById("my-form-status");
@@ -181,4 +212,5 @@
         form.addEventListener("submit", handleSubmit)
     </script>
 </body>
+
 </html>
